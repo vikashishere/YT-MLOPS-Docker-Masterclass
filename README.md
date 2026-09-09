@@ -50,6 +50,14 @@ Here are the notes covering Docker concepts discussed up to the current timestam
 <img width="1343" height="736" alt="image" src="https://github.com/user-attachments/assets/c926e1b1-0684-4ada-8c47-ffed494a5190" />
 
 
+- **NOTE**
+-
+
+WORKDIR /app: Automatically creates and sets /app as the execution context for all subsequent commands.
+
+
+COPY . .: First . represents local host project directory; second . represents /app inside the container.
+
 The 5000 port showen in picture is of image port that we map to our pc or cloud port
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
